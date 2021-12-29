@@ -1,0 +1,194 @@
+* {
+    background-color: #363541;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(207, 207, 207);
+    font-size: 18px;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.header, #contact, #links {
+    margin: 3%;
+}
+
+.menu {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #212027;
+    padding-right: 3%;
+}
+
+.menu a {
+    /*Could also be related to float:right;*/
+    color: rgb(207, 207, 207);
+    text-align: center;
+    text-decoration: none;
+    /* padding used to be here 25px, now in .dropdown*/
+    background-color: #212027;
+}
+
+.nondropdown, .dropdown{
+    background-color: inherit;
+    float: right;
+}
+
+/* STOPPED WORKING HERE. Padding doesn't work for .recprojects, only .dropdown as a whole. 
+But bottom won't affect the part before the dropdowns because they're contained within that div
+
+It's because of the float.*/
+.dropdown{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.recprojects {
+    padding: 25px;
+}
+
+.nondropdown, .recprojects{
+    padding: 25px;
+}
+
+.menu a:hover, .dropdown a:hover{
+    background-color: #111;
+}
+
+.dropdownlinks{
+    /*display: none;*/
+    /*It might be related to the position?*/
+    position: absolute;
+    min-width: 140px;
+    background-color: #212027;
+}
+
+
+.dropdownlinks a {
+    float: none;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #212027;
+}
+
+.dropdown:hover .dropdownlinks{
+    display: block;
+}
+
+.header {
+    margin: auto;
+    width: 80%;
+    padding-top: 3%;
+}
+
+/* Images */
+.Portrait{
+    max-width: 40%;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.CDO, .SMC {
+    max-width: 38%;
+    margin-top: 3%;
+    border-radius: 5%;
+}
+
+.Graduation{
+    max-width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 10%;
+}
+
+figure {
+    text-align: center;
+    overflow: hidden;
+}
+
+#aboutMe {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#name {
+    color:rgb(133, 226, 97);
+    font-size: 400%;
+    text-align: left;
+    background-color: inherit;
+    padding-top: 3%;
+    padding-left: 7%;
+    font-family:'Times New Roman', Times, serif;
+    overflow:hidden;
+}
+
+#homecontact {
+    padding-left: 51%;
+}
+
+button {
+    background-color: rgb(83, 160, 52); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+button:hover {
+    background-color: rgb(61, 136, 31);
+}
+
+button:active {
+    background-color: rgb(45, 112, 18);
+}
+
+/* Change this to fixed location for window scaling */
+.aboutbtn {
+    background-color: inherit;
+}
+
+
+p, #contact, #links, h1, img.LinkedInImg, img.GitHubImg, #LinkedIn, #GitHub {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+p, #aboutMe {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+h1 {
+    color:rgb(83, 160, 52);
+    font-size: 25px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#LinkedIn, #GitHub {
+    margin-bottom: 1%;
+}
+
+img.LinkedInImg, img.GitHubImg {
+    max-width: 1.8%;
+    height: auto;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
