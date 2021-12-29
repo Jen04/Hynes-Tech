@@ -38,8 +38,6 @@ But bottom won't affect the part before the dropdowns because they're contained 
 
 It's because of the float.*/
 .dropdown{
-    padding-top: 25px;
-    padding-bottom: 25px;
     overflow: hidden;
     white-space: normal;
 }
@@ -50,6 +48,7 @@ It's because of the float.*/
 
 .nondropdown, .recprojects{
     padding: 25px;
+    display: inline-block;
 }
 
 .menu a:hover, .dropdown a:hover{
@@ -57,7 +56,7 @@ It's because of the float.*/
 }
 
 .dropdownlinks{
-    /*display: none;*/
+    display: none;
     /*It might be related to the position?*/
     position: absolute;
     min-width: 140px;
