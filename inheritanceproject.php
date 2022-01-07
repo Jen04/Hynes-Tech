@@ -14,7 +14,7 @@
             <p>I created the GUI for BunGeney. This includes the following files: BunGeney.py, BunnyInfo.py, BunnyTable.py, Controller.py, MainWindow.py, Menus.py, and TotalsTable.py.</p>
             <p>An explanation for downloading and using the program can be found on the project's GitHub page in README.md.</p>
             <p>The full project can be found on GitHub here:</p>
-            <a href="https://github.com/Jen04/BunGeney"><button id="bunBTN" type="button">Github Repository</button></a>
+            <button id="bunBTN" type="button"><a href="https://github.com/Jen04/BunGeney">Github Repository</a></button>
         </section>
     </body>
 </html>

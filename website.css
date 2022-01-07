@@ -273,6 +273,10 @@ img.LinkedInImg, img.GitHubImg {
     margin-bottom: 4%;
 }
 
+#webBTN a, #umlBTN a, #bunBTN a {
+    background-color: inherit;
+}
+
 #webBTN{
     margin-top: 2%;
     margin-bottom: 2%;

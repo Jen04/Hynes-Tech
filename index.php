@@ -1,10 +1,10 @@
 <?php include("header.html"); ?>
 
         <section class = "header">
-            <img class = "Portrait" src="images/2021-05-20_16_18_16.470-0400 (2).jpg" alt="Picture of Jennifer Hynes" />
+            <img class = "Portrait" src="images/portrait.jpg" alt="Picture of Jennifer Hynes"/>
             <div id=headertext>
                 <p id="name">Hi, I'm <br /> Jennifer Hynes. </p>
-                <a class="aboutbtn" href="about.php"><button type="button">About Me</button></a>
+                <button type="button"><a class="aboutbtn" href="about.php">About Me</a></button>
             </div>
             <div id = "homecontact">
                 <h1>Contact</h1>
