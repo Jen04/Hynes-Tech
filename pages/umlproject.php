@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Jennifer Hynes</title>
-        <meta charset="utf-8" />
-        <link href="website.css" type="text/css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="menu">
-            <a class="nondropdown" href="contact.html">Contact</a></li>
-            <div class="dropdown">
-                <a class="recprojects">Recent Projects</a></li>
-                <div class="dropdownlinks">
-                    <a class="hover" href="umlproject.html">UML Program</a>
-                    <a class="hover" href="inheritanceproject.html">Inheritance Program</a>
-                    <a class="hover" href="webproject.html"">This Website</a>
-                </div>
-            </div>
-            <a class="nondropdown" href="about.html">About Me</a></li>
-            <a class="nondropdown" href="home.html">Home</a></li>
-        </div>
+<?php include("header.html"); ?>
+
         <h1 class="projectHeader">UML Diagram Project</h1>
         <img id="umlIMG" src="images/UML Editor.png" alt="Picture of UML Diagram Software" />
         <section class="projectText">
