@@ -18,7 +18,6 @@
                     As the treasurer, I was in charge of keeping track of our organization's finances through Millersville's banking center, 
                     requesting funding from the Student Government Association, and purchasing funded items for the organization. 
                     I collaborated with the other Board Game Club officers to plan and host campus events open to all students. 
-                    I also worked directly with a board game business in Lancaster Pennsylvania to purchase funded items and host events.
                 </p>
                 <p>
                     For my computer science senior project, I worked in a team of five students to create UML diagram software in Python. 

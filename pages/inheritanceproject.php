@@ -3,7 +3,7 @@
         <h1 class="projectHeader">Inheritance Program: BunGeney</h1>
         <img id="bunIMG" src="images/BunGeney.png" alt="Picture of UML Diagram Software" />
         <section class="projectText">
-            <p>BunGeney is a Python program that simulates genetic inheritance in rabbits. It was created to be used in high school and college-level biology classrooms as part of an independent study project.</p>
+            <p>BunGeney is a Python program that simulates genetic inheritance in rabbits. This program was a collaboration between myself and a student in Millersville's biology department. It was created to be used in high school and college-level biology classrooms.</p>
             <h2>How to use:</h2>
             <p>The "New Litter" button at the top of the window is used to generate litters of rabbits. The mother and father are determined by user input, which is retrieved using a custom popup window.  
                 Once a litter has been generated using genetic inheritance statistics for rabbits, the results are shown through the tables at the top of the window, the bottom of the window, and the individual rabbit section on the right. 
