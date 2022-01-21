@@ -152,12 +152,6 @@ button:active {
     padding-left: 51%;
 }
 
-/* Change this to fixed location for window scaling */
-.aboutbtn {
-    background-color: inherit;
-}
-
-
 /* ------ ( about.html ) ------ */
 #mupond{
     width: 100%
