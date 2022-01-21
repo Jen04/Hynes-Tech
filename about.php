@@ -1,7 +1,6 @@
 <?php include("header.html"); ?>
-
-        <h1 id="aboutHeader">About Me</h1>
         <section id="aboutMe">
+        <h1 id="aboutHeader">About Me</h1>
             <div id="abouttext">
                 <p>
                     I recently graduated with a bachelor’s degree in computer science from Millersville University of Pennsylvania. 
