@@ -17,7 +17,7 @@
             <p>For most of the project, my primary tasks involved working on the view and controller for the GUI. I worked on various functions throughout all view and controller files, but my main contributions were in ClassWidget.py, MoveClass.py, GUIMainWIndow.py, and GUI.py.</p>
             <p>An explanation for downloading and using the program can be found on the project's GitHub page in README.md.</p>
             <p>The full project can be found on GitHub here:</p>
-            <button id="umlBTN" type="button"><a href="https://github.com/mucsci-students/2021sp-420-MontyPython">Github Repository</a></button>
+            <button id="umlBTN" type="button" onclick="window.location.href='https://github.com/mucsci-students/2021sp-420-MontyPython';">Github Repository</button>
         </section>
     </body>
 </html>

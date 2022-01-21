@@ -6,7 +6,7 @@
             <p>I wrote the code for this website using HTML, CSS, and PHP. 
                 It was designed for desktop browsers.</p>
             <p>The code for this website can be found on GitHub here:</p>
-            <button id="webBTN" type="button"><a href="https://github.com/Jen04/Hynes-Tech">Github Repository</a></button>
+            <button id="webBTN" type="button" onclick="window.location.href='https://github.com/Jen04/Hynes-Tech';">Github Repository</button>
         </section>
         <div id=copyright>
             <p>Copyright (c) 2022 Jennifer Hynes</p>
