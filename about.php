@@ -4,13 +4,10 @@
             <div id="abouttext">
                 <p>
                     I recently graduated with a bachelor’s degree in computer science from Millersville University of Pennsylvania. 
-                    I'm currently seeking opportunities that combine my passions for programming and cybersecurity.
-		        </p>
-                <p>
-                    During my time at Millersville, I was a member of Millersville University’s Cyber Defense Organization. 
-                    During the spring 2021 semester, I was a member of the Windows team for the Mid-Atlantic Cyber Defense Competition (MACCDC). 
+                    During my time there, I was a member of their Cyber Defense Organization. 
+                    I was on the Windows team for the 2021 Mid-Atlantic Cyber Defense Competition (MACCDC). 
                     Eight of us competed in qualifiers, and then in the regional finals where we came in fourth place. 
-                    I also participated in the National Cyber League and took classes related to cybersecurity and computer networks.
+                    I also participated in the National Cyber League during the fall 2020 semester.
                 </p>
                 <p>
                     I was also involved in Millersville University's Board Game Club. 
