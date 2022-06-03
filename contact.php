@@ -3,7 +3,7 @@
         <section id = "contact">
             <img class = "Graduation" src="images/IMG-20210508-WA00032.jpg" alt="Picture of Jennifer Hynes" />
             <h1>Contact</h1>
-            <p>The best way to reach me is through my email, jennifer.renee.hynes@gmail.com.</p>
+            <p>The best way to reach me is through my email, jen@hynes.tech.</p>
         </section>
         <section id="links">
             <h1>Profile Links</h1>
