@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jen Hynes</title>
-        <meta charset="utf-8" />
-        <link href="website.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div class="menu">
-            <a class="nondropdown" href="contact.php">Contact</a>
-            <div class="dropdown">
-                <a class="recprojects" onclick="void(0)">Recent Projects</a>
-                <div class="dropdownlinks">
-                    <a class="hover" href="umlproject.php">UML Program</a>
-                    <a class="hover" href="inheritanceproject.php">Inheritance Program</a>
-                    <a class="hover" href="webproject.php">This Website</a>
-                </div>
-            </div>
-            <a class="nondropdown" href="about.php">About Me</a>
-            <a class="nondropdown" href="home.php">Home</a>
+  <head>
+    <title>Jen Hynes</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="website.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="body-div">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="home.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.php">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recent Projects
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="webproject.php">This Website</a></li>
+                  <li><a class="dropdown-item" href="umlproject.php">UML Program</a></li>
+                  <li><a class="dropdown-item" href="inheritanceproject.php">Inheritance Program</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-
+      </nav>
+      <div class="container-fluid after-navbar">
 <!-- This file is included at the top of all website files -->

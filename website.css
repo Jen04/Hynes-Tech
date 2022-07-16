@@ -1,286 +1,145 @@
 /* ------ ( Every page ) ------ */
 * {
-    background-color: #363541;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(207, 207, 207);
     font-size: 18px;
-    max-width: 100%;
-    margin: 0px;
+}
+
+html, body, .body-div{
+    height: 100vh;
+    background-color: #363541;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
-    color:rgb(83, 160, 52);
-    font-size: 25px;
-    margin-bottom: 1%;
-    margin-top: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    color:rgb(135, 196, 111);
 }
 
 h2 {
     color:rgb(135, 196, 111);
-    margin-bottom: 2%;
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
-p {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
+h3 {
+    font-style: italic;
+    color: rgb(182, 211, 171);
 }
 
 ul {
     list-style-type: square;
-    margin-left: 5%;
 }
 
-button {
-    background-color: rgb(83, 160, 52); /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    border-radius: 25px;
-    margin-left: 7%;
-    margin-bottom: 3%;
-    margin-top: 2%;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+@keyframes fadeInR {
+    from { opacity: 0;
+        transform: translateX(30px);
+    }
+    to { opacity: 1; 
+        transform: translateX(0);
+    }
 }
 
-button:hover {
-    background-color: rgb(61, 136, 31);
+@keyframes fadeU {
+    from { opacity: 0;
+        transform: translateY(30px);
+    }
+    to { opacity: 1; 
+        transform: translateY(0);
+    }
 }
 
-button:active {
-    background-color: rgb(45, 112, 18);
+.fadeUp {
+    animation-name: fadeU;
+    animation-duration: 1s;
 }
 
-.menu {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background-color: #212027;
-    padding-right: 3%;
+.fadeInRight {
+    animation-name: fadeInR;
+    animation-duration: 1s;
 }
 
-.menu a {
-    color: rgb(207, 207, 207);
-    text-align: center;
-    text-decoration: none;
-    background-color: #212027;
+.fadeInElement {
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
-
-.nondropdown, .dropdown{
-    background-color: inherit;
-    float: right;
-}
-
-.dropdown{
-    overflow: hidden;
-    white-space: normal;
-}
-
-.recprojects {
-    padding: 25px;
-}
-
-.nondropdown, .recprojects{
-    padding: 25px;
-    display: inline-block;
-}
-
-.hover:hover, .nondropdown:hover {
-    background-color: #111;
-}
-
-.dropdownlinks{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-    background-color: #212027;
-}
-
-.dropdownlinks a {
-    float: none;
-    padding: 25px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    background-color: #212027;
-}
-
-.dropdown:hover .dropdownlinks{
-    display: block;
-}
-
 
 /* ------ ( home.html ) ------ */
 
-.header {
-    margin: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    padding-top: 3%;
-}
-
 .Portrait{
-    max-width: 40%;
     border-radius: 50%;
-    float: left;
-    margin-left: 5%;
 }
 
 #name {
     color:rgb(133, 226, 97);
-    font-size: 400%;
-    text-align: left;
-    background-color: inherit;
-    padding-top: 3%;
-    padding-left: 7%;
     font-family:'Times New Roman', Times, serif;
-    overflow:hidden;
 }
 
-#homecontact {
-    padding-left: 51%;
+#titleLine {
+    font-style: italic;
+    color:rgb(182, 211, 171);
+}
+
+#about-btn{
+    margin-bottom: 2%;
+}
+
+.home-contents {
+    margin-top: 2.5%;
+}
+
+.home-text {
+    margin-left: 10%;
+    margin-top: 7%;
 }
 
 /* ------ ( about.html ) ------ */
-#mupond{
-    width: 100%
-}
-
-.CDO, .SMC {
-    max-width: 38%;
-    margin-top: 1%;
-    border-radius: 5%;
-}
-
-figure {
-    text-align: center;
-    overflow: hidden;
-    margin-bottom: 3%;
-}
 
 #aboutMe {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-}
-
-#abouttext p{
-    margin-bottom: 3%;
-}
-
-#aboutHeader{
-    text-align: center;
     margin-top: 3%;
-    margin-bottom: 1.5%;
 }
 
-/* ------ ( contact.html ) ------ */
-
-img.LinkedInImg, img.GitHubImg, #LinkedIn, #GitHub {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-#LinkedIn, #GitHub {
-    margin-bottom: 1%;
-}
-
-img.LinkedInImg, img.GitHubImg {
-    max-width: 1.8%;
-    height: auto;
-    vertical-align: middle;
-    padding: 0px;
-    margin: 0px;
-}
-
-#contact, #links {
-    margin: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+#linkedIn {
+    margin-bottom: 3%;
 }
 
 .Graduation{
-    max-width: 30%;
-    float: left;
-    margin-right: 3%;
-    margin-left: 3%;
     border-radius: 10%;
+    margin-bottom: 7%;
 }
 
 /* ------ ( Project pages ) ------ */
 .projectHeader {
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 1.5%;
-}
-
-.projectText {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-}
-
-#umlIMG, #bunIMG, #webIMG {
-    border: 5px solid #111;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#umlIMG {
-    width: 50%;
-}
-
-#webIMG {
-    width: 40%;
-}
-
-#bunIMG {
-    width: 50%;
-}
-
-#webText {
-    display: block;
-    text-align: center;
-}
-
-#webBTN, #umlBTN, #bunBTN {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-#webBTN a, #umlBTN a, #bunBTN a {
-    background-color: inherit;
-}
-
-#webBTN{
     margin-top: 2%;
+}
+
+#webBtn {
     margin-bottom: 2%;
 }
 
-#copyright{
-    display: block;
-    text-align: center;
-    width: 100%;
+.projectImg {
+    margin-bottom: 3%;
 }
-#copyright p {
+
+.lowerPics {
+    margin-top: 2%;
+}
+
+#copyright {
     color:rgb(149, 148, 163);
+}
+
+.projectContents{
+    margin-top: 2%;
+}
+
+.projectText {
+    margin-right: 3%;
 }

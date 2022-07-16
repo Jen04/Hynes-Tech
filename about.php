@@ -1,30 +1,31 @@
 <?php include("header.html"); ?>
-        <section id="aboutMe">
-        <h1 id="aboutHeader">About Me</h1>
-            <div id="abouttext">
-                <p>
-                    I recently graduated with a bachelor’s degree in computer science from Millersville University of Pennsylvania. 
-                    During my time there, I was a member of their Cyber Defense Organization. 
-                    I was on the Windows team for the 2021 Mid-Atlantic Cyber Defense Competition (MACCDC). 
-                    Eight of us competed in qualifiers, and then in the regional finals where we came in fourth place. 
-                    I also participated in the National Cyber League during the fall 2020 semester.
-                </p>
-                <p>
-                    I was also involved in Millersville University's Board Game Club. 
-                    As the treasurer, I was in charge of keeping track of our organization's finances through Millersville's banking center, 
-                    requesting funding from the Student Government Association, and purchasing funded items for the organization. 
-                    I collaborated with the other Board Game Club officers to plan and host campus events open to all students. 
-                </p>
-                <p>
-                    For my computer science senior project, I worked in a team of five students to create UML diagram software in Python. 
-                    During this semester-long project, we gained experience with Agile methodologies including Scrum, peer programming, and code reviews. 
-                    If you would like to learn more about that project, there is a page dedicated to it on this website.
-                </p>
-            </div>
-        </section>
-        <figure>
-            <img class = "CDO" src="images/image12.jpg" alt="Cyber Defense Org" />
-            <figcaption>Millersville University 2021 Cyber Defense Organization</figcaption>
-        </figure>
-    </body>
-</html>
+                <div id="aboutMe">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class = "img-fluid mx-auto d-block Graduation" src="images/IMG-20210508-WA00032.jpg" alt="Picture of Jen Hynes" />
+                        </div>
+                        <div class="col-lg-7 fadeInElement">
+                            <div>
+                                <h1>Hi, I'm Jen.</h1>
+                                <p id="titleLine">Software Developer</p>
+                                <p>Being creative has always been a passion of mine.  I have tried my hand at many different kinds of art including painting, digital art, metal art, and crocheting. When I first began programming, I felt the same sense of fulfillment that I experienced when creating art. I enjoy the problem-solving process, learning how to improve, and being able to use something that I made. Now, I am looking to utilize my knowledge and creativity to help others develop software.</p>
+                                <p>If you have an opportunity that you believe I could be a good fit for, I would love to connect.</p>
+                            </div>
+                            <div>
+                                <h2>Contact</h2>
+                                <p>The best way to reach me is through my email, jen@hynes.tech.</p>
+                                <div class="row">
+                                    <div class="col-lg-3" id="linkedIn">
+                                        <a href="https://www.linkedin.com/in/jenhynes/">
+                                            <img src="images/In-Blue-Logo.png.original.png" alt="LinkedIn profile link" /> LinkedIn</a> <br />
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a href="https://github.com/Jen04">
+                                            <img src="images/GitHub-Mark-32px.png" alt="GitHub profile link" /> GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<?php include("footer.html"); ?>
